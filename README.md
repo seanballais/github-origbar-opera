@@ -1,4 +1,4 @@
-# Original GitHub Navigation Bar Color
+# GitHub OrigBar
 
 An Opera port of "Original GitHub Navigation Bar Color" Chrome extension that reverts the GitHub navigation bar back to it's original color. :octocat:
 
