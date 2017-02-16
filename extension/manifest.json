@@ -1,22 +1,22 @@
 {
   "manifest_version": 2,
-  "name": "Original GitHub Navigation Bar Color",
-  "version": "1.1.1",
-  "description": "Reverts the GitHub navigation bar back to it's original color.",
+  "name": "GitHub OrigBar",
+  "version": "0.0.1",
+  "description": "Reverts the GitHub navigation bar back to it's original color. Opera port of Original GitHub Navigation Bar Color by Jack Wilsdon.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "author": "Jack Wilsdon <jack.wilsdon@gmail.com>",
+  "author": "Sean Francis N. Ballais <sean@seanballais.com>",
   "content_scripts" : [{
     "matches" : [ "*://github.com/*", "*://*.github.com/*" ],
-    "css": [ "fix-navigation-color.css" ]
+    "css": [ "navbar-colorfix.css" ]
   }],
-  "homepage_url": "https://github.com/jackwilsdon/original-github-navigation-bar-color",
+  "homepage_url": "https://github.com/seanballais/github-origbar-opera",
   "permissions": [
     "*://github.com/*",
     "*://*.github.com/*"
   ],
-  "short_name": "Original GitHub Navigation"
+  "short_name": "GitHub OrigBar"
 }
